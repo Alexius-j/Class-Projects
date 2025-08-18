@@ -1,1 +1,1 @@
-# Class-Projects
+Web Design Class Projects
