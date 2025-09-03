@@ -22,9 +22,9 @@ header{
     padding: 50px;
 }
 
-header h1 {
-    color: #73034C;
-    font-size: 30px;
+h1 {
+    color:#73034C;
+    text-align: center;
 }
 
 nav {
