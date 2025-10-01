@@ -5,6 +5,7 @@ Web Design Class Projects
     <li><a href="html5-css/" target="_blank">HTML5 and Intro to CSS</a></li>
     <li><a href="advanced-css/" target="_blank">Advanced CSS</a></li>
     <li><a href="responsive-web/" target="_blank">Responsive Web Design</a></li>
+     <li><a href="final-project/" target="_blank">Final Project</a></li>
    
 
 </ul>
