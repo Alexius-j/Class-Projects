@@ -1,0 +1,247 @@
+@media (max-width: 767px) {
+    nav ul {
+        flex-direction: column;
+        gap: 0;
+        overflow: visible;
+    }
+    nav ul li a {
+        padding: 8px 12px;
+        margin: 6px 0;
+    }
+}
+/* Nav bar buttons */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 16px 24px;
+    background-color: #4A1259;
+    color: #fff;
+    border: 2px solid #A192A6;
+    border-radius: 8px;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px #200726;
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+nav ul li a:hover {
+    background-color: #622773;
+    color: #fff;
+}
+/* Global Styles */
+* {
+    margin:0;
+}
+
+body {
+   background-color:#622773;
+   font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px #200726;
+}
+p {
+    border: 2px solid #A192A6;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px 0;
+}
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    color:#200726;
+
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Trade Winds", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* Mobile Styles */
+
+header {
+    background-image: url("../images/WintersAutoBanner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    opacity: 50%;
+}
+
+#container {
+    padding: 10px;
+    border: 4px solid #A192A6;
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: block;
+}
+
+nav li a {
+    display: block;
+    background-color: #4A1259;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    font-size: 25px;
+    border-bottom: 4px solid #A192A6;
+}
+
+nav li a:hover {
+    background-color: #622773;
+}
+
+main {
+    padding: 10px;
+    margin: 10px;
+}
+
+.main_content {
+    padding:10px;
+}
+
+.col {
+    margin: 10px 0;
+}
+
+.col img {
+    border-radius: 10px;
+    border: 2px solid #A192A6;
+}
+
+footer {
+    padding: 40px;
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+    width: 65%;
+    height: 450px;
+    border-radius: 12px;
+}
+
+.contact_content {
+    text-align: center;
+}
+
+section,
+aside {border: 4px solid #A192A6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 768px) {
+    nav {
+        padding: 10px 0;
+        border-bottom: 4px solid #A192A6;
+    }
+
+    nav li {
+        display: inline;
+    }
+
+    nav li a {
+        display: inline-block;
+        width: 150px;
+        height: 40px;
+    }
+
+    main {
+        margin-top: 10px;
+    }
+    .col img {
+        width: 65%;
+    }
+
+}
+
+/* Desktop Styles */
+@media (min-width: 1024px) {
+    #container {
+    width: 65%;
+    margin: 20px auto;
+    background-color: #4A1259;
+}
+
+.gallery {
+    display: flex;
+}
+
+.col {
+    border: 4px solid #A192A6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.col img {
+    width: 75%;
+}
+
+.col h3 {
+    padding: 10px;
+    text-align: center;
+    color: #A192A6;
+}
+
+.col p {
+    padding: 10px;
+}
+
+.multi_col {
+    display: flex;
+}
+
+section,
+aside {border: 4px solid #A192A6;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.home_section {
+    width: 70%;
+
+}
+
+.home_aside {
+    width: 30%;
+}
+}
